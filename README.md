@@ -28,6 +28,6 @@ for face in all_faces:
     print (face.detect_skin_color())
     
     ## Eye color estimation
-    print (face.detect_eye_color())```
+    print (face.detect_eye_color())
 
 ```
