@@ -269,7 +269,7 @@ class Faces():
         if self.mode == 'dlib':
             detector = dlib.get_frontal_face_detector()
             faces = detector(self.image)
-            padding = 0
+            padding = 1
             result = []
             for face in faces:
                 face_cropped = self.image[face.top()-padding:face.bottom()+padding, face.left()-padding:face.right()+padding]
